@@ -1,0 +1,26 @@
+
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #1e3a8a; 
+  --color-secondary: #f0f9ff; 
+  --color-dark: #1e293b; 
+}
+
+
+.navbar-custom {
+  @apply bg-primary text-white px-6 py-4;
+}
+
+.tombol-custom {
+  @apply bg-blue-500 text-white px-4 py-2 rounded shadow hover:bg-blue-600;
+}
+
+.kartu-custom {
+  @apply bg-white p-4 rounded shadow-md flex flex-col gap-4 border border-gray-100;
+}
+
+.footer-custom {
+  @apply bg-gray-800 text-white text-center py-4 mt-10;
+}
